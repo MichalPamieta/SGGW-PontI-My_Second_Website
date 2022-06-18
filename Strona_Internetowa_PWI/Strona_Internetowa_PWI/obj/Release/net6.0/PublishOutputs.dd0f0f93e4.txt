@@ -1,0 +1,7 @@
+D:\Michal\SGGW\Semestr 6\Programowanie w Internecie\ASP NET MVC\Strona_Internetowa_PWI\Strona_Internetowa_PWI\obj\Release\net6.0\PubTmp\Out\Strona_Internetowa_PWI.exe
+D:\Michal\SGGW\Semestr 6\Programowanie w Internecie\ASP NET MVC\Strona_Internetowa_PWI\Strona_Internetowa_PWI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Michal\SGGW\Semestr 6\Programowanie w Internecie\ASP NET MVC\Strona_Internetowa_PWI\Strona_Internetowa_PWI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Michal\SGGW\Semestr 6\Programowanie w Internecie\ASP NET MVC\Strona_Internetowa_PWI\Strona_Internetowa_PWI\obj\Release\net6.0\PubTmp\Out\Strona_Internetowa_PWI.dll
+D:\Michal\SGGW\Semestr 6\Programowanie w Internecie\ASP NET MVC\Strona_Internetowa_PWI\Strona_Internetowa_PWI\obj\Release\net6.0\PubTmp\Out\Strona_Internetowa_PWI.deps.json
+D:\Michal\SGGW\Semestr 6\Programowanie w Internecie\ASP NET MVC\Strona_Internetowa_PWI\Strona_Internetowa_PWI\obj\Release\net6.0\PubTmp\Out\Strona_Internetowa_PWI.runtimeconfig.json
+D:\Michal\SGGW\Semestr 6\Programowanie w Internecie\ASP NET MVC\Strona_Internetowa_PWI\Strona_Internetowa_PWI\obj\Release\net6.0\PubTmp\Out\Strona_Internetowa_PWI.pdb
