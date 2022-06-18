@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projekt na przedmiot Programowanie w Internecie">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript, JS, SGGW, C#, ASP.NET, .NET, .NET Core, .NET 6.0">
+    <meta name="author" content="Michał Pamięta">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Projekt PwI - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="page-container">
+        <div class="content-wrap">
+            <header class="bg-dark bg-gradient">
+                <nav class="navbar navbar-dark navbar-expand-md navbar-toggleable-md box-shadow mb-3 nav-fill">
+                    <div class="container-fluid" style="justify-content: space-between;">
+                        <a class="navbar-brand text-danger brand" asp-area="" asp-controller="Home" asp-action="Index" data-target="home">Strona Główna</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="navbar-collapse collapse d-md-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Index" data-target="helloworld">Hello World</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-collapse collapse d-md-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Index" data-target="html+css">HTML + Css</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-collapse collapse d-md-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Index" data-target="grajs">Gra JS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-collapse collapse d-md-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Index" data-target="onepage">One Page</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-collapse collapse d-md-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Index" data-target="mvc">MVC</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="container-fluid">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+        <footer id="footer" class="footer text-muted">
+            <hr/>
+            Michał Pamięta, numer albumu: 196099 <br/>
+            Informatyka &ndash; Programowanie w Internecie <br/>
+            SGGW (WULS) &ndash; 2021/2022
+        </footer>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/game.js" asp-append-version="true"></script>
+    <script src="~/js/calculator.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
